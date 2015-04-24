@@ -19,7 +19,7 @@ Build-Depends: debhelper (>= 9),
                qtbase5-dev,
                qtchooser
 Standards-Version: 3.9.6
-Homepage: http://code.google.com/p/accounts-sso/
+Homepage: https://gitlab.com/accounts-sso/signond
 Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/kde-extras/signond.git
 Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-extras/signond.git
 
