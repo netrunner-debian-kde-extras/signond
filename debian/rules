@@ -46,4 +46,4 @@ override_dh_install:
 	dh_install --fail-missing
 
 %:
-	dh $@ -Bbuild/qt5 --parallel --with migrations
+	dh $@ -Bbuild/qt5 --parallel

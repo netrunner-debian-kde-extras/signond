@@ -1,1 +1,2 @@
-usr/lib/*/libsignon-extension.so.*
+usr/lib/*/libsignon-extension.so.1
+usr/lib/*/libsignon-extension.so.1.*

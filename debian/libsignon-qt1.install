@@ -1,1 +1,2 @@
-usr/lib/*/libsignon-qt.so.*
+usr/lib/*/libsignon-qt.so.1
+usr/lib/*/libsignon-qt.so.1.*
