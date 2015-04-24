@@ -1,6 +1,7 @@
 signond (8.57+20150423-1~) UNRELEASED; urgency=medium
 
   * Prepare Debian release. (8.57+20150423)
+  * Update copyright information.
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 24 Apr 2015 14:37:25 +0200
 
