@@ -1,0 +1,4 @@
+version=3
+opts=filenamemangle=s/.*=(.*)/signond-$1\.tar\.gz/ \
+ https://gitlab.com/accounts-sso/signond/tags \
+  .*/archive\.tar\.gz\?ref=([\d.]+)
