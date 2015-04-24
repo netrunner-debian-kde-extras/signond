@@ -9,6 +9,7 @@ export DH_OPTIONS
 export NO_DOCS := no
 export QMAKE_LIBDIR=/usr/lib
 export DPKG_GENSYMBOLS_CHECK_LEVEL=4
+DEB_HOST_MULTIARCH ?= $(shell dpkg-architecture -qDEB_HOST_MULTIARCH)
 
 override_dh_auto_configure:
 	mkdir -p build/qt4 build/qt5
