@@ -48,3 +48,6 @@ override_dh_install:
 
 %:
 	dh $@ -Bbuild/qt5 --parallel
+
+override_dh_auto_test:
+	xvfb-run -a dbus-launch --exit-with-session dh_auto_test
