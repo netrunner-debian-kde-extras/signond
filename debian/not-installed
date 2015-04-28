@@ -1,0 +1,6 @@
+# Compressed files produce a false positive
+usr/share/doc/libsignon-qt/html/index.qhp
+usr/share/doc/signon/html/index.qhp
+usr/share/doc/signon-plugins-dev/example/exampleplugin.cpp
+usr/share/doc/signon-plugins/html/index.qhp
+usr/share/doc/signon/qch/signon.qch
