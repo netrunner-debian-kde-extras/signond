@@ -78,7 +78,7 @@ Package: libsignon-qt-doc
 Section: doc
 Architecture: all
 Depends: ${misc:Depends}
-Description: Single Sign On framework - documentation
+Description: Single Sign On framework - documentation for Qt API
  Accounts and SSO (Single Sign-On) framework for Linux and POSIX based
  platforms.
  .
@@ -137,7 +137,7 @@ Package: signond-doc
 Section: doc
 Architecture: all
 Depends: ${misc:Depends}
-Description: Single Sign On framework - documentation
+Description: Single Sign On framework - documentation for daemon
  Accounts and SSO (Single Sign-On) framework for Linux and POSIX based
  platforms.
  .
