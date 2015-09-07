@@ -10,6 +10,7 @@ export NO_DOCS := no
 export QMAKE_LIBDIR=/usr/lib
 export DPKG_GENSYMBOLS_CHECK_LEVEL=4
 DEB_HOST_MULTIARCH ?= $(shell dpkg-architecture -qDEB_HOST_MULTIARCH)
+DOXYGEN_VERSION := $(shell dpkg --status doxygen | grep Version | cut -f 2 -d ' ')
 
 override_dh_auto_configure:
 	mkdir -p build/qt4 build/qt5
@@ -45,6 +46,9 @@ override_dh_install:
 	rm -f debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/libsignon-qt*.*a
 	rm -f debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/signon/libexampleplugin.so
 	dh_install --fail-missing
+
+override_dh_gencontrol:
+	dh_gencontrol -- -Vsignond:DoxygenVersion='$(DOXYGEN_VERSION)'
 
 %:
 	dh $@ -Bbuild/qt5 --parallel

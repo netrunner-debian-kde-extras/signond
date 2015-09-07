@@ -77,6 +77,7 @@ Description: Single Sign On framework - qt5 shared libraries
 Package: libsignon-qt-doc
 Section: doc
 Architecture: all
+Built-Using: doxygen (= ${signond:DoxygenVersion})
 Depends: ${misc:Depends}
 Description: Single Sign On framework - documentation for Qt API
  Accounts and SSO (Single Sign-On) framework for Linux and POSIX based
@@ -136,6 +137,7 @@ Description: Single Sign On framework - development files
 Package: signond-doc
 Section: doc
 Architecture: all
+Built-Using: doxygen (= ${signond:DoxygenVersion})
 Depends: ${misc:Depends}
 Description: Single Sign On framework - documentation for daemon
  Accounts and SSO (Single Sign-On) framework for Linux and POSIX based
@@ -159,6 +161,7 @@ Description: Single Sign On framework - plugins development files
 Package: libsignon-plugins-doc
 Section: doc
 Architecture: all
+Built-Using: doxygen (= ${signond:DoxygenVersion})
 Depends: ${misc:Depends}
 Description: Single Sign On framework - plugins documentation
  Accounts and SSO (Single Sign-On) framework for Linux and POSIX based
