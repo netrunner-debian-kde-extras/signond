@@ -48,7 +48,7 @@ Description: Single Sign On framework - qt shared libraries
  Accounts and SSO (Single Sign-On) framework for Linux and POSIX based
  platforms.
  .
- This package contains shared libraries to be used by applications.
+ This package contains Qt4 shared libraries to be used by applications.
 
 Package: libsignon-qt5-dev
 Section: libdevel
@@ -72,7 +72,7 @@ Description: Single Sign On framework - qt5 shared libraries
  Accounts and SSO (Single Sign-On) framework for Linux and POSIX based
  platforms.
  .
- This package contains shared libraries to be used by applications.
+ This package contains Qt5 shared libraries to be used by applications.
 
 Package: libsignon-qt-doc
 Section: doc
@@ -94,7 +94,7 @@ Description: Single Sign On framework - plugins common shared library
  Accounts and SSO (Single Sign-On) framework for Linux and POSIX based
  platforms.
  .
- This package contains shared libraries to be used by applications.
+ This package contains plugin shared libraries to be used by applications.
 
 Package: libsignon-extension1
 Section: libs
@@ -105,7 +105,7 @@ Description: Single Sign On framework - extension shared library
  Accounts and SSO (Single Sign-On) framework for Linux and POSIX based
  platforms.
  .
- This package contains shared libraries to be used by applications.
+ This package contains extension shared libraries to be used by applications.
 
 Package: signond
 Architecture: any
