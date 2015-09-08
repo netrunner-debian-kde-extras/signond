@@ -31,7 +31,7 @@ override_dh_auto_build:
 override_dh_auto_clean:
 	dh_auto_clean -Bbuild/qt4
 	dh_auto_clean -Bbuild/qt5
-	rm src/signond/backupifadaptor.*
+	-rm src/signond/backupifadaptor.*
 
 override_dh_auto_install:
 	dh_auto_install -Bbuild/qt4 -plibsignon-qt1
