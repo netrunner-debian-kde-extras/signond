@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 8.57+20150423 amd64
-libsignon-extension.so.1 libsignon-extension #MINVER#
+libsignon-extension.so.1 libsignon-extension1 #MINVER#
  _ZN6SignOn10KeyHandler10initializeEPNS_21AbstractCryptoManagerERK5QListIPNS_18AbstractKeyManagerEE@Base 8.57+20150423
  _ZN6SignOn10KeyHandler10keyRemovedE10QByteArray@Base 8.57+20150423
  _ZN6SignOn10KeyHandler11keyDisabledE10QByteArray@Base 8.57+20150423
