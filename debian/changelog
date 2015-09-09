@@ -16,6 +16,7 @@ signond (8.57+20150423-1~) UNRELEASED; urgency=medium
     libsignon-plugins-doc,
   * use dh_doxygen to cleanup documentation packages.
   * Use debian-qt-kde.mk from pkg-kde-tools to provide -Wl,--as-needed
+  * Remove ${shlib:Depends} from -dev packages as it's never defined.
 
  -- Diane Trout <diane@debian.org>  Wed, 02 Sep 2015 22:35:26 -0700
 
