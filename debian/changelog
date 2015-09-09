@@ -1,4 +1,4 @@
-signond (8.57+20150423-1~) UNRELEASED; urgency=medium
+signond (8.57+20150423-1) unstable; urgency=medium
 
   [ Maximiliano Curia ]
   * Prepare Debian release. (8.57+20150423)
@@ -18,7 +18,7 @@ signond (8.57+20150423-1~) UNRELEASED; urgency=medium
   * Use debian-qt-kde.mk from pkg-kde-tools to provide -Wl,--as-needed
   * Remove ${shlib:Depends} from -dev packages as it's never defined.
 
- -- Diane Trout <diane@debian.org>  Wed, 02 Sep 2015 22:35:26 -0700
+ -- Diane Trout <diane@debian.org>  Wed, 09 Sep 2015 14:53:33 -0700
 
 signon (8.57+15.04.20150204.1-0ubuntu1) vivid; urgency=medium
 
