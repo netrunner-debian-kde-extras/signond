@@ -14,6 +14,7 @@ signond (8.57+20150423-1~) UNRELEASED; urgency=medium
     libsignon-qt1 and libsignon-qt5-1
   * Add doc-base registration for signond-doc, libsignon-qt-doc, and
     libsignon-plugins-doc,
+  * use dh_doxygen to cleanup documentation packages.
 
  -- Diane Trout <diane@debian.org>  Wed, 02 Sep 2015 22:35:26 -0700
 
