@@ -47,9 +47,6 @@ override_dh_install:
 	rm -f debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/libsignon-qt*.*a
 	rm -f debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/signon/libexampleplugin.so
 	dh_install --fail-missing
-
-override_dh_installdocs:
-	dh_installdocs
 	dh_doxygen
 
 override_dh_gencontrol:
