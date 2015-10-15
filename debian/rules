@@ -49,7 +49,7 @@ override_dh_install:
 	rm -f debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/libsignon-qt*.*a
 	rm -f debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/signon/libexampleplugin.so
 	dh_install --fail-missing
-	dh_doxygen
+	dh_doxygen -i
 
 override_dh_gencontrol:
 	dh_gencontrol -- -Vsignond:DoxygenVersion='$(DOXYGEN_VERSION)'

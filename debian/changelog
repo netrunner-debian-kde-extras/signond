@@ -1,3 +1,11 @@
+signond (8.57+20150423-2) unstable; urgency=medium
+
+  * Team upload.
+  * Fix FTBFS on arch dependent package builds by limiting dh_doxygen to arch
+    all packages
+
+ -- Scott Kitterman <scott@kitterman.com>  Thu, 15 Oct 2015 08:02:40 -0400
+
 signond (8.57+20150423-1) unstable; urgency=medium
 
   [ Maximiliano Curia ]
