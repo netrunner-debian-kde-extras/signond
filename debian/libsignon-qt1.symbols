@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 8.57+20150423 amd64
+# SymbolsHelper-Confirmed: 8.57+20150423 amd64 arm64 armel armhf hppa mips64el mipsel powerpc ppc64 ppc64el s390x
 libsignon-qt.so.1 libsignon-qt1 #MINVER#
  _ZN6QDebugD1Ev@Base 8.57+20150423
  _ZN6QDebugD2Ev@Base 8.57+20150423
@@ -60,6 +60,8 @@ libsignon-qt.so.1 libsignon-qt1 #MINVER#
  _ZN6SignOn12IdentityInfoD1Ev@Base 8.57+20150423
  _ZN6SignOn12IdentityInfoD2Ev@Base 8.57+20150423
  _ZN6SignOn12IdentityInfoaSERKS0_@Base 8.57+20150423
+ (optional=inline)_ZN6SignOn5ErrorC1EiRK7QString@Base 8.57+20150423
+ (optional=inline)_ZN6SignOn5ErrorC2EiRK7QString@Base 8.57+20150423
  _ZN6SignOn5ErrorD0Ev@Base 8.57+20150423
  _ZN6SignOn5ErrorD1Ev@Base 8.57+20150423
  _ZN6SignOn5ErrorD2Ev@Base 8.57+20150423
@@ -96,6 +98,8 @@ libsignon-qt.so.1 libsignon-qt1 #MINVER#
  _ZN6SignOn8IdentityD0Ev@Base 8.57+20150423
  _ZN6SignOn8IdentityD1Ev@Base 8.57+20150423
  _ZN6SignOn8IdentityD2Ev@Base 8.57+20150423
+ (optional=gccinternal)_ZN7QStringD1Ev@Base 8.57+20150423
+ (optional=gccinternal)_ZN7QStringD2Ev@Base 8.57+20150423
  _ZNK6SignOn11AuthService10metaObjectEv@Base 8.57+20150423
  _ZNK6SignOn11AuthService14IdentityRegExp7isValidEv@Base 8.57+20150423
  _ZNK6SignOn11AuthService14IdentityRegExp7patternEv@Base 8.57+20150423
@@ -115,7 +119,7 @@ libsignon-qt.so.1 libsignon-qt1 #MINVER#
  _ZNK6SignOn12IdentityInfo8userNameEv@Base 8.57+20150423
  _ZNK6SignOn8Identity10metaObjectEv@Base 8.57+20150423
  _ZNK6SignOn8Identity2idEv@Base 8.57+20150423
- _ZNK7QString7sectionE5QCharii6QFlagsINS_11SectionFlagEE@Base 8.57+20150423
+ (optional=templinst)_ZNK7QString7sectionE5QCharii6QFlagsINS_11SectionFlagEE@Base 8.57+20150423
  _ZTVN6SignOn11AuthServiceE@Base 8.57+20150423
  _ZTVN6SignOn11AuthSessionE@Base 8.57+20150423
  _ZTVN6SignOn5ErrorE@Base 8.57+20150423
