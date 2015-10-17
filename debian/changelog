@@ -1,8 +1,8 @@
-signond (8.57+20150423-3) UNRELEASED; urgency=medium
+signond (8.57+20150423-3) unstable; urgency=medium
 
   * Symbols updates for several architectures.
 
- -- Diane Trout <diane@debian.org>  Fri, 16 Oct 2015 23:08:33 -0700
+ -- Diane Trout <diane@debian.org>  Fri, 16 Oct 2015 23:58:52 -0700
 
 signond (8.57+20150423-2) unstable; urgency=medium
 
